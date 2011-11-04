@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * Validates argument is not set
+ *
+ * @author Veikko Mäkinen
+ *
+ **/
 class EcIsNotsetValidator extends AgaviValidator
 {
 

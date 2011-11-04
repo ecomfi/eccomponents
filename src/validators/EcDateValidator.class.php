@@ -1,5 +1,12 @@
 <?php
 
+/**
+ * A general purpose simple date validator
+ *
+ * @author Veikko Mäkinen
+ * @author Niklas Närhinen
+ *
+ **/
 class EcDateValidator extends EcValidatorBase
 {
 

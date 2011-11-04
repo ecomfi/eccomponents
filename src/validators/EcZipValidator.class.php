@@ -1,8 +1,9 @@
 <?php
 
 /**
+ * Validates a Finnish style Zip (postinumero)
  *
- *
+ * @author Veikko Mäkinen
 */
 class EcZipValidator extends EcValidatorBase
 {

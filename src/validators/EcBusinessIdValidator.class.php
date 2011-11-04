@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * Validator for Finnish format Business ID (Y-tunnus)
+ *
+ * @author Veikko Mäkinen
+ *
+ **/
 class EcBusinessIdValidator extends EcValidatorBase
 {
 

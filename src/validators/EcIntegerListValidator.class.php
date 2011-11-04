@@ -1,8 +1,8 @@
 <?php
 
 /**
- *
- *
+ * Validates a string from format "1,2,3,4,5" and exports it to array(1,2,3,4,5)
+ * @author Veikko Mäkinen
 */
 class EcIntegerListValidator extends EcValidatorBase
 {
