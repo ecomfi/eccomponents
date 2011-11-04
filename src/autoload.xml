@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ae:configuration xmlns="http://agavi.org/agavi/config/parts/autoload/1.0" xmlns:ae="http://agavi.org/agavi/config/global/envelope/1.0">
+	<!-- Validators -->
+	<autoload name="EcValidatorBase">%ec.components_path%/validators/EcValidatorBase.class.php</autoload>
+	<autoload name="EcNumberValidator">%ec.components_path%/validators/EcNumberValidator.class.php</autoload>
+	<autoload name="EcDateValidator">%ec.components_path%/validators/EcDateValidator.class.php</autoload>
+	<autoload name="EcTimeValidator">%ec.components_path%/validators/EcTimeValidator.class.php</autoload>
+	<autoload name="EcIsNotsetValidator">%ec.components_path%/validators/EcIsNotsetValidator.class.php</autoload>
+	<autoload name="EcZipValidator">%ec.components_path%/validators/EcZipValidator.class.php</autoload>
+	<autoload name="EcBusinessIdValidator">%ec.components_path%/validators/EcBusinessIdValidator.class.php</autoload>
+	<autoload name="EcIntegerListValidator">%ec.components_path%/validators/EcIntegerListValidator.class.php</autoload>
+	<autoload name="EcIsUserAttributeSetValidator">%ec.components_path%/validators/EcIsUserAttributeSetValidator.class.php</autoload>
+	<autoload name="EcStringValidator">%ec.components_path%/validators/EcStringValidator.class.php</autoload>
+	<autoload name="EcStringArrayValidator">%ec.components_path%/validators/EcStringArrayValidator.class.php</autoload>
+	<autoload name="EcXmlValidator">%ec.components_path%/validators/EcXmlValidator.class.php</autoload>
+
+	<!-- AgaviRequest -->
+	<autoload name="EcAgaviWebRequest">%ec.components_path%/request/EcAgaviWebRequest.class.php</autoload>
+	
+	<!-- Utils -->
+	<autoload name="EcArrayIterator">%ec.components_path%/utils/EcArrayIterator.class.php</autoload>
+	<autoload name="EcCrypt">%ec.components_path%/utils/EcCrypt.class.php</autoload>
+	<autoload name="EcIterableContainer">%ec.components_path%/utils/EcIterableContainer.class.php</autoload>
+	<autoload name="EcPropelResultIterator">%ec.components_path%/utils/EcPropelResultIterator.class.php</autoload>
+	<autoload name="EcToolkit">%ec.components_path%/utils/EcToolkit.class.php</autoload>
+
+	<!-- Models -->
+	<autoload name="FlashMessageModel">%ec.components_path%/models/FlashMessageModel.class.php</autoload>
+	<autoload name="EmailerModel">%ec.components_path%/models/EmailerModel.class.php</autoload>
+
+	<!-- Testing -->
+	<autoload name="EcAgaviActionTestCase">%ec.components_path%/testing/fraction/EcAgaviActionTestCase.class.php</autoload>
+
+</ae:configuration>
