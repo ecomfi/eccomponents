@@ -22,6 +22,7 @@
 	<autoload name="EcCrypt">%ec.components_path%/utils/EcCrypt.class.php</autoload>
 	<autoload name="EcIterableContainer">%ec.components_path%/utils/EcIterableContainer.class.php</autoload>
 	<autoload name="EcPropelResultIterator">%ec.components_path%/utils/EcPropelResultIterator.class.php</autoload>
+	<autoload name="EcPropelOnDemandCollectionIterator">%ec.components_path%/utils/EcPropelOnDemandCollectionIterator.class.php</autoload>
 	<autoload name="EcToolkit">%ec.components_path%/utils/EcToolkit.class.php</autoload>
 
 	<!-- Models -->
