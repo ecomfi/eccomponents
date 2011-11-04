@@ -1,4 +1,10 @@
 <?php
+/**
+ * Subclassing AgaviWebRequest to allow application/json input
+ *
+ * @author Niklas Närhinen
+ *
+ **/ 
 class EcAgaviWebRequest extends AgaviWebRequest 
 {
 

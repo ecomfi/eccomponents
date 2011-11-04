@@ -1,4 +1,10 @@
 <?php
+/**
+ * A helper class to inject params to action instance
+ *
+ * @author Veikko Mäkinen
+ * 
+ **/ 
 class EcAgaviActionTestCase extends AgaviActionTestCase
 {
 	protected $actionInits = array();
@@ -7,8 +13,8 @@ class EcAgaviActionTestCase extends AgaviActionTestCase
 	 *
 	 * @param string $function
 	 * @param mixed $params
-	 * @param boolean $callWithoutParams Kutsu ilman parametreja
-	 * @param boolean $hasManyParams Jokainen parameteri-arrayn alkio omana parametrinaan (jos funktio saa useita parametreja)
+	 * @param boolean $callWithoutParams Call without params
+	 * @param boolean $paramsAsList Params as list instead of an array as one parameter
 	 */
 	protected function addActionInit($function, $params, $callWithoutParams=false, $paramsAsList=false)
 	{

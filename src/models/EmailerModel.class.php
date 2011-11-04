@@ -1,5 +1,12 @@
 <?php
 
+/**
+ * AgaviModel wrapper around Swift_Mailer
+ *
+ * @author Veikko Mäkinen
+ * @author Niklas Närhinen
+ * 
+ **/ 
 class EmailerModel extends AgaviModel
 {
 	/**
@@ -76,7 +83,7 @@ class EmailerModel extends AgaviModel
 				->setBody($file);
 		}
 		else {
-			throw new EcEmailerException("Valittua liitettä ei osattu käsitellä");
+			throw new EcEmailerException("Unable to process attachment");
 		}
 		$this->swiftMessage->attach($attachment);
 	}

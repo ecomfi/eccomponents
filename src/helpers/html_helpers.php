@@ -55,7 +55,7 @@ function _t($time)
 
 function flashObject($movie, $width, $height, $flashVersion=6, $background="#FFFFFF")
 {
-	// lataa flashobject.js <head>ssa
+	// load flashobject.js in <head>
 	// SWFObject v1.5.1: Flash Player detection and embed - http://blog.deconcept.com/swfobject/
 
 	$basename = basename($movie, '.swf');
@@ -63,7 +63,7 @@ function flashObject($movie, $width, $height, $flashVersion=6, $background="#FFF
 	$movieId = 'flash-movie-' . $basename;
 
 	//content div
-	$result = sprintf('<div id="%s" style="width: %dpx; height: %dpx;" >Sisällön näyttäminen vaatii Flash-lisäosan selaimeen.</div>',
+	$result = sprintf('<div id="%s" style="width: %dpx; height: %dpx;" >You need flash plugin to show this content.</div>',
 		$contentId, $width, $height);
 
 	//fläsö-object

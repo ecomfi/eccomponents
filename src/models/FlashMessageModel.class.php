@@ -1,5 +1,22 @@
 <?php
 
+/**
+ * RoR inspired FlashMessage implementation for Agavi
+ * Uses jQuery UI classes for the markup
+ * 
+ * Example markup in templates/Master.php
+ * <pre>
+ * 	<?php if ($fMsgs = $ctx->getModel('FlashMessage')->getMessages():?>
+ *	<?php foreach($fMsgs as $fMsg):?>
+ *	<div class="<?php echo $fMsg['class'];?>">
+ *		<span class="ui-icon <?php echo $fMsg['icon'];?> lefticon" style="margin-right: 5px;" ></span><?php echo htmlspecialchars($fMsg['message']);?>
+ *	</div>
+ *	<?php endforeach;?>
+ *	<?php endif;?>
+ *
+ * @author Niklas Närhinen
+ * @author Veikko Mäkinen
+ **/
 class FlashMessageModel extends AgaviModel implements AgaviISingletonModel
 {
 	const FlashMessageNS = 'com.ecom.flashmsg';
